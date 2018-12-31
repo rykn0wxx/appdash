@@ -1,0 +1,1 @@
+client: bash -c 'cd ./client/ && yarn serve'

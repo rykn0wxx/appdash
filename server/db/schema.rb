@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_01_073821) do
+ActiveRecord::Schema.define(version: 2019_01_01_134706) do
 
   create_table "clients", force: :cascade do |t|
     t.string "name", default: "", null: false
@@ -22,6 +22,33 @@ ActiveRecord::Schema.define(version: 2019_01_01_073821) do
     t.index ["name"], name: "index_clients_on_name", unique: true
     t.index ["project_id"], name: "index_clients_on_project_id"
     t.index ["region_id"], name: "index_clients_on_region_id"
+  end
+
+  create_table "fact_phones", force: :cascade do |t|
+    t.date "record_date"
+    t.integer "language_id"
+    t.integer "project_id"
+    t.integer "calls_off"
+    t.integer "calls_ans"
+    t.integer "calls_ans_sl"
+    t.integer "calls_abn"
+    t.integer "calls_abn_sl"
+    t.integer "time_talk"
+    t.integer "time_hold"
+    t.integer "time_wrap"
+    t.integer "queue_ans"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["language_id"], name: "index_fact_phones_on_language_id"
+    t.index ["project_id"], name: "index_fact_phones_on_project_id"
+  end
+
+  create_table "languages", force: :cascade do |t|
+    t.string "name", default: "", null: false
+    t.boolean "active", default: true
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_languages_on_name", unique: true
   end
 
   create_table "projects", force: :cascade do |t|

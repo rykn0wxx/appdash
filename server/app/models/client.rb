@@ -21,6 +21,6 @@ class Client < ApplicationRecord
   # belongs_to :project
   # belongs_to :region
   validates :name, presence: true, uniqueness: true
-  has_one :project, inverse_of: :clients
-  has_one :region, inverse_of: :clients
+  belongs_to :project, inverse_of: :clients
+  belongs_to :region, inverse_of: :clients
 end

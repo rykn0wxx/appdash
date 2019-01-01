@@ -19,3 +19,11 @@
 #   project = Project.find_by_name(row['project']).id
 #   Client.create!(:name => row['name'], :project_id => project, :region_id => region)
 # end
+
+# language_data = JSON.parse(File.read('db/init_data/languages.json'))
+# Language.create!(language_data)
+# require 'csv'
+# csv_file = File.join(Rails.root, 'db/init_data/fact_phone.csv')
+# CSV.foreach(csv_file, headers: true) do |row|
+#   FactPhone.create!(row.to_h)
+# end

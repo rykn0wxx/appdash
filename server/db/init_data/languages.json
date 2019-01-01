@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Bulgarian",
+    "active": true
+  },
+  {
+    "name": "Chinese Mandarin",
+    "active": true
+  },
+  {
+    "name": "Core",
+    "active": true
+  },
+  {
+    "name": "Czech",
+    "active": true
+  },
+  {
+    "name": "Danish",
+    "active": true
+  },
+  {
+    "name": "Dutch",
+    "active": true
+  },
+  {
+    "name": "English",
+    "active": true
+  },
+  {
+    "name": "French",
+    "active": true
+  },
+  {
+    "name": "German",
+    "active": true
+  },
+  {
+    "name": "Hebrew",
+    "active": true
+  },
+  {
+    "name": "Hungarian",
+    "active": true
+  },
+  {
+    "name": "Italian",
+    "active": true
+  },
+  {
+    "name": "Japanese",
+    "active": true
+  },
+  {
+    "name": "Korean",
+    "active": true
+  },
+  {
+    "name": "Mandar",
+    "active": true
+  },
+  {
+    "name": "Polish",
+    "active": true
+  },
+  {
+    "name": "Portuguese",
+    "active": true
+  },
+  {
+    "name": "Romanian",
+    "active": true
+  },
+  {
+    "name": "Spanish",
+    "active": true
+  }
+]

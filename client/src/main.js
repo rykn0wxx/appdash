@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import './plugins/vuetify'
+import './plugins/highchart'
 import './sass/_base.scss'
 import './components'
 import { sync } from 'vuex-router-sync'

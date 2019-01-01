@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import './plugins/vuetify'
+import './sass/_base.scss'
+import './components'
 import { sync } from 'vuex-router-sync'
 import App from './App.vue'
 import router from './router'

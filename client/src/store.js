@@ -9,13 +9,42 @@ export default new Vuex.Store({
   // plugins: [
   //   createPersistedState()
   // ],
+  strict: true,
   state: {
-
+    token: null,
+    user: null,
+    isUserLogin: null,
+    alerts: null
   },
   mutations: {
-
+    setToken (state, payload) {
+      state.token = payload
+      state.isUserLogin = payload ? true : null
+    },
+    setUser (state, payload) {
+      state.user = payload
+    },
+    setAlerts (state, payload) {
+      state.alerts = payload
+    }
   },
   actions: {
-
+    setToken ({ commit }, payload) {
+      commit('setToken', payload)
+    },
+    setUser ({ commit }, payload) {
+      commit('setUser', payload)
+    },
+    setAlerts ({ commit }, payload) {
+      commit('setAlerts', payload)
+    }
+  },
+  getters: {
+    isUserLogin: state => {
+      return state.isUserLogin
+    },
+    getToken: state => {
+      return state.token
+    }
   }
 })

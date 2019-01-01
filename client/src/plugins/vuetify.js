@@ -25,5 +25,5 @@ Vue.use(Vuetify, {
     info: '#4285F4',
     success: '#15DB95',
     warning: '#F3D250'
-  },
+  }
 })

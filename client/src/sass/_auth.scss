@@ -1,0 +1,42 @@
+@import '../../sass/config';
+@import '../../sass/mixins';
+.login {
+  &-wrapper {
+    background: url('../../assets/auth-bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    flex: 1 1 0%;
+    flex-direction: row;
+    display: flex;
+    box-sizing: border-box;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-end;
+  }
+  &-box {
+    background-color: rgba(darken($primary-theme, 8), 0.9);
+    color: set-text-color($primary-theme);
+    height: 100%;
+    padding: 25px;
+    box-shadow: 0px 2px 5px 0 rgba(0,0,0,0.26);
+  }
+  &-form {
+    &__link {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      .anon-logo {
+        height: 60px;
+      }
+    }
+    &__title {
+      margin: 0px 0px 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-top: 40px;
+    }
+    &__subheading {
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app dark :class="[isRootPath ? 'primary_variant is-root' : 'primary_variant']">
     <v-content>
       <router-view/>
     </v-content>
@@ -8,6 +8,11 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  computed: {
+    isRootPath: function () {
+      return this.$route.path === '/'
+    }
+  }
 }
 </script>

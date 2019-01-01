@@ -11,6 +11,7 @@ export default new Vuex.Store({
   // ],
   strict: true,
   state: {
+    showDrawer: false,
     token: null,
     user: null,
     isUserLogin: null,
@@ -26,6 +27,9 @@ export default new Vuex.Store({
     },
     setAlerts (state, payload) {
       state.alerts = payload
+    },
+    setDrawer (state, payload) {
+      state.showDrawer = payload
     }
   },
   actions: {
@@ -37,6 +41,9 @@ export default new Vuex.Store({
     },
     setAlerts ({ commit }, payload) {
       commit('setAlerts', payload)
+    },
+    setDrawer ({ commit }, payload) {
+      commit('setDrawer', payload)
     }
   },
   getters: {
@@ -45,6 +52,7 @@ export default new Vuex.Store({
     },
     getToken: state => {
       return state.token
-    }
+    },
+    getDrawer: state => state.showDrawer
   }
 })

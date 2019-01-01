@@ -2,20 +2,26 @@
 .rykn0wxx, .rykn0wxx body {
   box-sizing: border-box;
 }
-#app.is-root {
-  background: url('../assets/app-bg.jpeg') no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
+#app {
+  background: $primary_variant;
+  &.is-root {
+    background: url('../assets/app-bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
     height: 100%;
-    z-index: -1;
-    background: rgba($primary-theme, 0.9);
+    overflow: hidden;
+  
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba($primary-theme, 0.9);
+    }
+  }
+  .v-navigation-drawer__border {
+    width: 0;
   }
 }

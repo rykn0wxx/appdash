@@ -1,5 +1,7 @@
 <template>
   <v-app dark :class="[isRootPath ? 'primary_variant is-root' : 'primary_variant']">
+    <Drawer v-if="!isRootPath" />
+    <TopBar v-if="!isRootPath" />
     <v-content>
       <router-view/>
     </v-content>

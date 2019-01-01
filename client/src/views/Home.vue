@@ -17,7 +17,7 @@
             <a href="!#" class="menu-nav__navbar-link">About</a>
           </li>
           <li :class="[isClose ? 'menu-nav__navbar-item show' : 'menu-nav__navbar-item']">
-            <a href="!#" class="menu-nav__navbar-link">Work</a>
+            <router-link to="/dashboard" class="menu-nav__navbar-link">Dashboard</router-link>
           </li>
           <li :class="[isClose ? 'menu-nav__navbar-item show' : 'menu-nav__navbar-item']">
             <router-link to="/authentication/login" class="menu-nav__navbar-link">Login</router-link>

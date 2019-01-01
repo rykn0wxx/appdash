@@ -12,10 +12,11 @@ Vue.use(Vuetify, {
   //   success: '#4CAF50',
   //   warning: '#FFC107'
   // },
-  iconfont: 'mdi',
+  iconfont: 'md',
   theme: {
     primary: '#0B0C10',
-    primary_variant: '#1F2833',
+    // primary_variant: '#1F2833',
+    primary_variant: '#383f48',
     primary_light: '#C5C6C7',
     secondary: '#4f3796',
     secondary_variant: '#35267c',

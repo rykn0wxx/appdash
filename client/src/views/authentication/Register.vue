@@ -83,7 +83,7 @@
 import AuthService from '@/services/AuthService'
 
 export default {
-  name: 'Register',
+  name: 'AuthenticationRegister',
   data () {
     return {
       valid: false,

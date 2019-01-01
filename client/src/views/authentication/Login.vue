@@ -56,7 +56,7 @@ import Api from '@/services/Api'
 import AuthService from '@/services/AuthService'
 
 export default {
-  name: 'Login',
+  name: 'AuthenticationLogin',
   data () {
     return {
       valid: false,

@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Acosta",
+    "code": "Acosta",
+    "active": true
+  },
+  {
+    "name": "Alcoa",
+    "code": "Alcoa",
+    "active": true
+  },
+  {
+    "name": "Alvarez and Marsal",
+    "code": "Alvarez and Marsal",
+    "active": true
+  },
+  {
+    "name": "Amcor",
+    "code": "Amcor",
+    "active": true
+  },
+  {
+    "name": "BCG",
+    "code": "BCG",
+    "active": true
+  },
+  {
+    "name": "Brown-Forman",
+    "code": "Brown-Forman",
+    "active": true
+  },
+  {
+    "name": "CEC",
+    "code": "CEC",
+    "active": true
+  },
+  {
+    "name": "CNH",
+    "code": "CNH",
+    "active": true
+  },
+  {
+    "name": "Covance",
+    "code": "Covance",
+    "active": true
+  },
+  {
+    "name": "Duke",
+    "code": "Duke",
+    "active": true
+  },
+  {
+    "name": "E&Y",
+    "code": "E&Y",
+    "active": true
+  },
+  {
+    "name": "Embraer",
+    "code": "Embraer",
+    "active": true
+  },
+  {
+    "name": "Epsilon",
+    "code": "Epsilon",
+    "active": true
+  },
+  {
+    "name": "Essilor",
+    "code": "Essilor",
+    "active": true
+  },
+  {
+    "name": "Evoqua",
+    "code": "Evoqua",
+    "active": true
+  },
+  {
+    "name": "Ferro",
+    "code": "Ferro",
+    "active": true
+  },
+  {
+    "name": "Hanon",
+    "code": "Hanon",
+    "active": true
+  },
+  {
+    "name": "Honda",
+    "code": "Honda",
+    "active": true
+  },
+  {
+    "name": "Huron",
+    "code": "Huron",
+    "active": true
+  },
+  {
+    "name": "Infineum",
+    "code": "Infineum",
+    "active": true
+  },
+  {
+    "name": "John Deere",
+    "code": "John Deere",
+    "active": true
+  },
+  {
+    "name": "Joy",
+    "code": "Joy",
+    "active": true
+  },
+  {
+    "name": "Kraft/Heinz",
+    "code": "Kraft/Heinz",
+    "active": true
+  },
+  {
+    "name": "Louis Vuitton",
+    "code": "Louis Vuitton",
+    "active": true
+  },
+  {
+    "name": "MasterCard",
+    "code": "MasterCard",
+    "active": true
+  },
+  {
+    "name": "NBA",
+    "code": "NBA",
+    "active": true
+  },
+  {
+    "name": "Novelis",
+    "code": "Novelis",
+    "active": true
+  },
+  {
+    "name": "Reydel",
+    "code": "Reydel",
+    "active": true
+  },
+  {
+    "name": "Route One",
+    "code": "Route One",
+    "active": true
+  },
+  {
+    "name": "Swagelok",
+    "code": "Swagelok",
+    "active": true
+  },
+  {
+    "name": "TSI",
+    "code": "TSI",
+    "active": true
+  },
+  {
+    "name": "Vallourec",
+    "code": "Vallourec",
+    "active": true
+  },
+  {
+    "name": "Visteon",
+    "code": "Visteon",
+    "active": true
+  },
+  {
+    "name": "Bio-Rad",
+    "code": "Bio-Rad",
+    "active": true
+  },
+  {
+    "name": "Clariant",
+    "code": "Clariant",
+    "active": true
+  },
+  {
+    "name": "CLS",
+    "code": "CLS",
+    "active": true
+  },
+  {
+    "name": "Coca Cola",
+    "code": "Coca Cola",
+    "active": true
+  },
+  {
+    "name": "Firmenich",
+    "code": "Firmenich",
+    "active": true
+  },
+  {
+    "name": "Ledvance",
+    "code": "Ledvance",
+    "active": true
+  },
+  {
+    "name": "Linde",
+    "code": "Linde",
+    "active": true
+  },
+  {
+    "name": "Merck-Serono",
+    "code": "Merck-Serono",
+    "active": true
+  },
+  {
+    "name": "Orbitz",
+    "code": "Orbitz",
+    "active": true
+  },
+  {
+    "name": "OSRAM",
+    "code": "OSRAM",
+    "active": true
+  },
+  {
+    "name": "PMI",
+    "code": "PMI",
+    "active": true
+  },
+  {
+    "name": "SAPA",
+    "code": "SAPA",
+    "active": true
+  },
+  {
+    "name": "Sulzer",
+    "code": "Sulzer",
+    "active": true
+  },
+  {
+    "name": "TRW",
+    "code": "TRW",
+    "active": true
+  }
+]

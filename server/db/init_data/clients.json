@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Acosta",
+    "project": "Acosta",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Alcoa - EMEA",
+    "project": "Alcoa",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Alcoa - NA",
+    "project": "Alcoa",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Alvarez and Marsal",
+    "project": "Alvarez and Marsal",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Amcor",
+    "project": "Amcor",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "BCG - EMEA",
+    "project": "BCG",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "BCG - NA",
+    "project": "BCG",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Bio-Rad - EMEA",
+    "project": "Bio-Rad",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Brown-Forman",
+    "project": "Brown-Forman",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "CEC",
+    "project": "CEC",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "CLS",
+    "project": "CLS",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "CNH",
+    "project": "CNH",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Clariant - EMEA",
+    "project": "Clariant",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Coca Cola",
+    "project": "Coca Cola",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Covance - EMEA",
+    "project": "Covance",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Covance - NA",
+    "project": "Covance",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Duke",
+    "project": "Duke",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "E&Y - NA",
+    "project": "E&Y",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Embraer",
+    "project": "Embraer",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Epsilon",
+    "project": "Epsilon",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Essilor - NA",
+    "project": "Essilor",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Evoqua",
+    "project": "Evoqua",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Ferro",
+    "project": "Ferro",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Firmenich",
+    "project": "Firmenich",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Hanon",
+    "project": "Hanon",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Honda",
+    "project": "Honda",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Huron",
+    "project": "Huron",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Infineum",
+    "project": "Infineum",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "John Deere - EMEA",
+    "project": "John Deere",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "John Deere - NA",
+    "project": "John Deere",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Joy",
+    "project": "Joy",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Kraft/Heinz - EMEA",
+    "project": "Kraft/Heinz",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Kraft/Heinz - NA",
+    "project": "Kraft/Heinz",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Ledvance",
+    "project": "Ledvance",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Linde - EMEA",
+    "project": "Linde",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Louis Vuitton",
+    "project": "Louis Vuitton",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "MasterCard",
+    "project": "MasterCard",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Merck-Serono",
+    "project": "Merck-Serono",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "NBA",
+    "project": "NBA",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Novelis - EMEA",
+    "project": "Novelis",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Novelis - NA",
+    "project": "Novelis",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "OSRAM",
+    "project": "OSRAM",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Orbitz",
+    "project": "Orbitz",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "PMI - EMEA",
+    "project": "PMI",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Reydel",
+    "project": "Reydel",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Route One",
+    "project": "Route One",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "SAPA - EMEA",
+    "project": "SAPA",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Sulzer",
+    "project": "Sulzer",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "Swagelok",
+    "project": "Swagelok",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "TRW - EMEA",
+    "project": "TRW",
+    "region": "Europe",
+    "active": true
+  },
+  {
+    "name": "TSI",
+    "project": "TSI",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Vallourec",
+    "project": "Vallourec",
+    "region": "North America",
+    "active": true
+  },
+  {
+    "name": "Visteon",
+    "project": "Visteon",
+    "region": "North America",
+    "active": true
+  }
+]

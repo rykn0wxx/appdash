@@ -10,7 +10,39 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_31_184800) do
+ActiveRecord::Schema.define(version: 2019_01_01_073821) do
+
+  create_table "clients", force: :cascade do |t|
+    t.string "name", default: "", null: false
+    t.integer "project_id"
+    t.integer "region_id"
+    t.boolean "active", default: true
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_clients_on_name", unique: true
+    t.index ["project_id"], name: "index_clients_on_project_id"
+    t.index ["region_id"], name: "index_clients_on_region_id"
+  end
+
+  create_table "projects", force: :cascade do |t|
+    t.string "name", default: "", null: false
+    t.string "code", default: "", null: false
+    t.boolean "active", default: true
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["code"], name: "index_projects_on_code", unique: true
+    t.index ["name"], name: "index_projects_on_name", unique: true
+  end
+
+  create_table "regions", force: :cascade do |t|
+    t.string "name", default: "", null: false
+    t.string "code", default: "", null: false
+    t.boolean "active", default: true
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["code"], name: "index_regions_on_code", unique: true
+    t.index ["name"], name: "index_regions_on_name", unique: true
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", limit: 50, default: "", null: false

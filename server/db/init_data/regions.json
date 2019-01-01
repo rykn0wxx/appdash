@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Asia Pacific",
+		"code": "APAC",
+		"active": true
+	},
+	{
+		"name": "Europe",
+		"code": "EMEA",
+		"active": true
+	},
+	{
+		"name": "North America",
+		"code": "NA",
+		"active": true
+	},
+	{
+		"name": "South America",
+		"code": "SA",
+		"active": true
+	}
+]
